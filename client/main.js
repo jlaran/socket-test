@@ -1,4 +1,4 @@
-var socket = io.connect('https://socketstest.herokuapp.com',{'forceNew': true});
+var socket = io.connect('http://socketstest.herokuapp.com:6677',{'forceNew': true});
 
 socket.on('messages', function(data){
 	console.log(data);

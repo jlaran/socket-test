@@ -28,5 +28,5 @@ io.on('connection', function(socket){
 });
 
 server.listen(6677, function(){
-	console.log("server running on https://socketstest.herokuapp.com/");
+	console.log("server running on http://socketstest.herokuapp.com:6677");
 });
